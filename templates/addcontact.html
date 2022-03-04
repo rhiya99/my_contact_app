@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add contacts</title>
+    </head>
+    <body>
+        <style>
+            body{background-color: black;}
+            h1{color: blanchedalmond;}
+            p{color: white;}
+        </style>
+    <center>
+        <h1><strong>Add contacts</strong> </h1>
+        
+     <!--Forms-->
+     <form method="POST">
+         
+          <Input type="text" name="name" placeholder="name"><br><br>
+        
+          <Input type="text" name="number" placeholder="contact number"><br>,<br>
+         
+          <Input type="email" name="email" placeholder="email address"><br>,<br>
+         
+         <input type="submit" value="Save">
+     </form>    
+
+        <style>
+            table, th, td {border:1px solid rgb(245, 241, 241);} 
+            h2{color:white;}
+            th{color: white;}
+            tr{color: white;}
+            p{color: white;}
+        </style>
+        
+        
+     <h2>MY CONTACTS</h2>
+     <table>
+            <tr><strong>
+              <th>Name</th>
+              <th>Contact number</th>
+              <th>Email ID</th>
+            </tr></strong>
+            <tr>
+               <th>Test Name</th>
+               <th>Test Number</th>
+               <th>Test Email</th>
+                
+            </tr>
+            
+           
+            
+            
+     </table>
+     <p>{{ contact_rows }}</p>
+        
+         
+        
+     </center>
+    
+       
+
+     
+     
+    </body>
+</html>
